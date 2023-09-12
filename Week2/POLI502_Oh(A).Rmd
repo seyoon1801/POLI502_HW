@@ -1,0 +1,101 @@
+---
+title: "POLI502_Oh(A)"
+output: pdf_document
+date: "2023-09-12"
+---
+
+##-------------------------------------------------------------------------
+## R code for POLI502 Lab, week 2-A: individual Exercises
+## Author: Seyoon Oh
+##-------------------------------------------------------------------------
+
+# Instruction:
+# Complete the following 5 tasks by modifying this R code.
+# Write everything in rmd or qmd as you are taught in class
+# Upload 1) rmd/qmd and 2) pdf output on your github repository so we can grade it.
+# Let us know what your github repo address, so we can fork it to us.
+
+
+
+# Task 1. Modify the author name above from "Howard Liu" to your name
+
+
+
+
+# Task 2. Perform the following calculations by writing R commands --------
+
+# 2-1: Multiply 4 by 30 plus 6, and then raise the answer to the power of 0.5
+
+(4*(30+6))^0.5
+
+
+
+# 2-2: Multiply 4 by 30, then add 6 and then raise the answer to the power of 0.5
+
+(4*30+6)^0.5
+
+
+
+# Note that 2-1 and 2-2 should give you DIFFERENT answers, because these
+# are different operations.
+
+
+
+# Task 3. Working with objects --------------------------------------------
+
+# 3-1: Create an object called "X1" which is the number 73
+
+x1 <- 73
+
+# 3-2: Create another object called "X2" which is the answer to the sum 99 + 38
+
+x2 <- 99 + 38
+
+# 3-3: Multiply X1 and X2 together and store the answer as another object called "X3"
+
+x3 <- x1 * x2
+
+
+# 3-4: Subtract 1 from X3, and then raise the answer to the power of 0.25
+
+(x3-1)^0.25
+
+# Note: the answer should be 10.
+
+
+
+# Task 4. Calculation using objects ---------------------------------------
+
+# Redo the calculation in 2-1 (Multiply 4 by 30 plus 6, and then raise the
+# answer to the power of 0.5), but this time do so by creating objects.
+# Take the following steps
+
+
+# 4-1: Create an object called part.1 that is equal to "30 plus 6"
+
+part.1 <- 30+6
+
+
+# 4-2: Create an object called part.2 that is equal to 4 times part.1
+
+part.2 <- 4*part.1
+
+
+# 4-3: Raise part.2 to the power of 0.5
+
+part.2^0.5
+
+
+
+# The numerical answer you get here should be the same as your answer for 2.1
+
+
+
+
+# Task 5. Execute the entire file. Make sure that you don't get any error
+# messages, such as "Error: unexpected symbol in ..." shown in Red.
+# If you receive an error message, it's probably because you forgot to comment
+# out some lines. Comment them out so you won't get any error message.
+
+
+# End of file
